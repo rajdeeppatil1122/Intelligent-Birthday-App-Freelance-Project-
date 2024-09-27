@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Colors for Combination 1 -->
+    <!-- Colors for Combination 2 -->
+    <!-- Colors for LED-like Combination -->
+    <color name="color1">#BFE3FF</color> <!-- Deep Sky Blue -->
+    <color name="color2">#DEEBFA</color> <!-- Light Blue -->
+    <color name="color3">#ECF5FF</color> <!-- Very Light Blue -->
+    <color name="color4">#DEDAFF</color> <!-- White -->
+    <color name="color5">#FFE6F2</color> <!-- Very Light Pink -->
+    <color name="color6">#CFE0FF</color> <!-- Light Pink -->
+    <color name="color7">#F1DFFA</color> <!-- Pink -->
+    <color name="color8">#FDF4F8</color> <!-- Deep Pink -->
+
+
+    <color name="color11">#6FCAEA</color> <!-- Light Blue -->
+    <color name="color12">#8DCBE8</color> <!-- Pale Blue -->
+    <color name="color13">#E1F5FE</color> <!-- Very Light Blue -->
+    <color name="color14">#FFFFFF</color> <!-- White -->
+    <color name="color15">#EAC4FF</color> <!-- Very Light Yellow -->
+    <color name="color16">#D69BEF</color> <!-- Light Yellow -->
+    <color name="color17">#E291F1</color> <!-- Pale Yellow -->
+
+
+</resources>

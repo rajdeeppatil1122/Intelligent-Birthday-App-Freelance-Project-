@@ -1,0 +1,9 @@
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/color1"/>
+    <item android:drawable="@color/color2"/>
+    <item android:drawable="@color/color3"/>
+    <item android:drawable="@color/color4"/>
+    <item android:drawable="@color/color5"/>
+    <item android:drawable="@color/color6"/>
+    <item android:drawable="@color/color7"/>
+</transition>

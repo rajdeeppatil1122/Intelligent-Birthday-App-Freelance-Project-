@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".NavigatorActivity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:background="#E0F6FF"
+            android:orientation="horizontal"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/lll1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:gravity="start|center"
+                    android:textSize="40dp"
+                    android:layout_marginStart="13dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/bariol_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Birthday\nCake\nZone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    app:lottie_speed="2"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:lottie_rawRes="@raw/cake3"
+                    android:background="#2c2c2c"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/lll2"
+                android:background="#E0F6FF"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:gravity="start|center"
+                    android:textSize="40dp"
+                    android:layout_marginStart="13dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/bariol_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Trivia\nChallenge"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    app:lottie_speed="2"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleX="1.5"
+                    android:scaleY="1.5"
+                    app:lottie_rawRes="@raw/trivia"
+                    android:background="#2c2c2c"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:id="@+id/lll3"
+                android:background="#E0F6FF"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:gravity="start|center"
+                    android:textSize="40dp"
+                    android:layout_marginStart="13dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/bariol_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Memory\nBook"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    app:lottie_speed="2"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleX="1.7"
+                    android:scaleY="1.7"
+                    app:lottie_rawRes="@raw/photomemorybook"
+                    android:background="#2c2c2c"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
